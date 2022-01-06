@@ -1,0 +1,48 @@
+.toggle {
+    width: 200px;
+    height: 56px;
+    background-color: #1A1C48;
+    border-radius: 8px;
+    border: 3px solid rgba(200, 200, 200, 0.3);
+}
+
+.toggleCon {
+    width: 247px;
+    height: 72px;
+    cursor: pointer;
+}
+
+.systemCabin {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.backWord {
+    color: white;
+}
+
+.whiteToggle {
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+    width: 120px;
+    left: 80px;
+    height: 72px;
+    transition: left 0.7s;
+}
+
+.whiteToggleLeft {
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+    width: 120px;
+    left: 190px;
+    height: 72px;
+    transition: left 0.7s;
+}
+
+.toggleBtn {
+    background: transparent;
+    border: none;
+}

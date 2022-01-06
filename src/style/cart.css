@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Roboto:wght@400;500&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+.carttop{
+    height: 13vh;
+    border-bottom: 1px rgba(0, 0, 0, 0.37) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+.cartitem{
+    height: 18vh;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-bottom:1px rgba(0, 0, 0, 0.363) solid;
+    margin-top: 10px;
+}
+.cartitemitems{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    justify-content: center;
+}
+.topitem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.topitemtop{
+    font-size: large;
+
+}
+.topitemsmall{
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.432)
+}
+.countercontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+}
+.decrease{
+    height: 35px;
+    width: 35px;
+    border-radius: 13px;
+    border:1px rgba(0, 0, 0, 0.418) solid;
+}
+.increase{
+    height: 35px;
+    width: 35px;
+    border-radius: 13px;
+    border:1px rgba(0, 0, 0, 0.479) solid;
+}
+.count{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+.cartitemback{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    float: right;
+}
+.cartprice{
+    font-size: large;
+}
+.close{
+    padding-left: 20px;
+}
+.cartitemcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

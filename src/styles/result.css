@@ -1,0 +1,26 @@
+.result {
+    width: 70%;
+}
+
+.result1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.bigHoroscopeTitle1 {
+    height: 120px;
+    width: 100%;
+    font-size: 48px;
+    color: #9499C3;
+}
+
+.description {
+    width: 75%;
+    height: 52%;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,55 @@
+.horoscope {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigHoroscopeTitle {
+    height: 200px;
+    width: 100%;
+    font-size: 48px;
+    color: #9499C3;
+}
+
+.titleDropDownCon {
+    height: 100%;
+    width: 80%;
+}
+
+.dropDownCon {
+    display: flex;
+    margin-top: 100px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.dropDown {
+    width: 102px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    color: #4B87FB;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+.signDate {
+    font-size: 38px;
+    color: #9499C3;
+}
+
+.selectStyle {
+    margin-top: 20px;
+    width: 110px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}

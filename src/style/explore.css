@@ -1,0 +1,120 @@
+.body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.category{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 13px;
+    margin-bottom: 100px;
+}
+.bluecategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 179px;
+    width: 160px;
+    border-radius: 18px;
+    border: 1px rgb(25, 128, 168) solid ;
+    background-color:  #1438ac1a;
+    gap: 10px;
+}
+.greencategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 179px;
+    width: 160px;
+    border-radius: 18px;
+    border: 1px rgb(25, 128, 168) solid ;
+    background-color:  #53B1751A;
+    gap: 10px;
+}
+.redcategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 179px;
+    width: 160px;
+    border-radius: 18px;
+    border: 1px rgb(201, 55, 18) solid ;
+    background-color:  #b818185b;
+    gap: 10px;
+}
+.purplecategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 179px;
+    width: 160px;
+    border-radius: 18px;
+    border: 1px rgb(55, 8, 165) solid ;
+    background-color:  #4c17c74b;
+    gap: 10px;
+}
+
+.orangecategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 179px;
+    width: 160px;
+    border-radius: 18px;
+    border: 1px rgb(185, 100, 20) solid ;
+    background-color:  rgba(248, 165, 76, 0.384);
+    gap: 10px;
+}
+.cyancategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 179px;
+    width: 160px;
+    border-radius: 18px;
+    border: 1px rgb(20, 124, 185) solid ;
+    background-color: rgba(0, 255, 255, 0.233);
+    gap: 10px;
+}
+
+.cattext{
+    font-family: ABeeZee;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+}
+.categorytop{
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.toptext{
+    font-family: ABeeZee;
+font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.search{
+    height: 51px;
+    width: 80%;
+}

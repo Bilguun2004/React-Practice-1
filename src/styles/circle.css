@@ -1,0 +1,46 @@
+.squareCon {
+    width: 166px;
+    height: 170px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.circlesCon {
+    display: flex;
+}
+
+.circleCon {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: dashed #F3F4F9 1px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.keyTitle {
+    color: white;
+    font-size: 12px;
+}
+
+.dataColor {
+    font-size: 23px;
+}
+
+.luckyTime {
+    color: #96E27B;
+}
+
+.luckyNumber {
+    color: #AD7A4B;
+}
+
+.mood {
+    color: #74CCBC;
+}
+
+.compatibility {
+    color: #C65858;
+}

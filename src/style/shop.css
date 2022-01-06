@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&family=Mohave:wght@300&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&family=Mohave:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+.bannercontainer{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    gap: 20px;
+}
+.search{
+    margin-top: 20px;
+    height: 45px;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #F2F3F2;
+    border: 0;
+    padding-left: 20px;
+}
+.text{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 25px;
+    font-weight: 400;
+    width: 80%;
+    /* margin-left: 40px; */
+    font-size: 18px;
+}
+.shopsection{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    gap: 10px;
+}
+.addproduct{
+    height: 35px;
+    width: 35px;
+    background-color: #53B175;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.product{
+    column-gap: 5px;
+    height: 180px;
+    border-radius: 18px;
+    border: 1px rgba(0, 0, 0, 0.103) solid;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.product:link{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px ;
+}
+.roww{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 20px;
+    margin-top: 10px;
+    width: 120px;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: black;
+    padding-top: 15px;
+}
+
+.img-cont{
+    text-align: center;
+}
+.butt{
+    margin-right: 5px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    column-gap:10px;
+    font-family: ABeeZee;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 10px;
+}
+.descrip{
+    font-family: ABeeZee;
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+color: #7C7C7C;
+}
+.banner-top{
+    font-size: 12px;
+}
+.bannertop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.589);
+}
+.modal{
+    height: 100vh;
+    width: 100vw;
+}
+.modal-top{
+    height: 40%;
+    width: 100%;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: #eef1ee;
+
+}
+.modal-top-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    padding: 20px;
+}
+.img{
+    padding-top: 40px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalthing{
+    display: flex;
+    flex-direction: column;
+    height: 5%;
+    padding-top: 20px;
+}
+.modaltext{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+}
+.modalcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.modalsmalltext{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.534) ;
+}
+.modaltopth{
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.invis{
+    color: rgba(255, 255, 255, 0);
+}
+.modalsmalltext{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.modaltopthh{
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+.modalprice{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.counter{
+    height: 40px;
+    width: 40px;
+    border-radius: 17px;
+    border: 1px rgba(0, 0, 0, 0.555) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.pricecontainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+.price{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    padding-right: 10px;
+}
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    margin-right: 18px;
+    border-top: 1px rgba(0, 0, 0, 0.144) solid;
+    border-bottom: 1px rgba(0, 0, 0, 0.144) solid;
+    height: 15%;
+}
+.modaldetail{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.detailtop{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}
+.detailbottom{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.418);
+}
+.status{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px rgba(0, 0, 0, 0.144) solid;
+    align-items: center;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding-left: 10px;
+}
+
+
+.yes{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    height: 25px;
+    width: 40px;
+    font-size: 11px;
+    border-radius: 10px;
+    background-color: #53B175;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.modalbottom{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25px;
+    align-self: center;
+    height: 15%;
+    gap: 13px;
+    margin-bottom: 100px;
+}
+.basket{
+    height: 60px;
+    border-radius: 19px;
+    width: 90%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #53B175;
+}
+.groceries{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    overflow-y: scroll;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.gr{
+    height: 70px;
+    width: 200px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 40px;
+    gap: 70px;
+    background-color: #f8a54c3f;
+    font-size: large;
+}
+.gr2{
+    height: 70px;
+    width: 200px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 40px;
+    gap: 70px;
+    background-color: #53b17552;
+    font-size: large;
+}
